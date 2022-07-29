@@ -28,7 +28,7 @@ function Portfolio() {
 
             <div className='portfolio-inner-inverted'>
                 <div id='portfolio-left-inverted'>
-                    <p id='project-type'>Featured Project</p>
+                    <p id='project-type-inverted'>Featured Project</p>
                     <h4 id='port-title-inverted'>Business Website</h4>
                     <p id='portfolio-description-inverted'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
                     </p>
@@ -62,11 +62,18 @@ function Portfolio() {
 
             <div className='portfolio-inner-inverted'>
                 <div className='portfolio-left-inverted'>
-                    <p id='project-type'>Featured Project</p>
+                    <p id='project-type-inverted'>Featured Project</p>
                     <h4 id='port-title-inverted'>Business Website</h4>
                     <p id='portfolio-description-inverted'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.
                     </p>
+                    <div id='port-bottom-inverted'>
+                        <span >React</span>
+                        <span >Redux</span>
+                        <span >Material Ui</span>
+                        <span >Firebase</span>
+                    </div>
                 </div>
+                
 
                 <div className='portfolio-right-inverted'>
                     <img id='portfolio-img' src={famitil} alt='exon-smith' />
